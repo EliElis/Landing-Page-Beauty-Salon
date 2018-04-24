@@ -1,0 +1,639 @@
+
+
+@media (max-width: 543px){
+	
+	.bg{
+	max-height: 500px;
+	}
+	
+	#main{
+		max-height: 480px;
+	    height: 50vh;
+	}
+	
+	.mainBtn a{
+		font-size:28px;
+	}
+	header {
+		padding: 5px;
+		height: 100px;
+	}
+	.navContact {
+		-webkit-box-pack: start;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+		-ms-flex-line-pack: start;
+		align-content: flex-start;
+	}
+	.nav{
+		width: 100%;
+		justify-content: center;
+	}
+	
+	.navLogo{
+		-webkit-box-pack: start;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+		-ms-flex-line-pack: start;
+		align-content: flex-start;
+
+	}
+	.navLogo img{
+		width:200px;
+		height: 73px;
+	}
+	 .navIcons {
+		display: none;
+	}
+
+	.navIcons img {
+		width: 20%;
+	}
+	.nav li a {
+		font-size: 16px;
+	}
+	.navTel {
+		font-size: 20px;
+	}
+	.navAdress {
+		font-size: 14px;
+	}
+	.mainTitle {
+		font-size: 40px;
+	}
+	.mainSubTitle {
+		font-size: 20px;
+	}
+	.services {
+		width: 98%;
+	}
+	.serviceImg {
+		width: 98%;
+	}
+	.form {
+		width: 90%;
+		padding: 1rem;
+	}
+	.staffTitle {
+		font-size: 30px;
+	}
+	
+	.formCont {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+	}
+	.formCont div {
+		width: 100%;
+	}
+	textarea {
+		width: 100%;
+		height: 8rem;
+	}
+	.botMap {
+		display: none;
+	}
+	.salonPhotoHolder {
+		-ms-flex-pack: distribute;
+		justify-content: space-around;
+	}
+	.botTel {
+		font-size: 40px;
+	}
+		.staffPhoto {
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+	
+   .photo{
+		width: 150px;
+		height: 200px;
+
+	}
+	
+	.photo-holder{
+		width: 150px;
+	}
+		.staffImg {
+		width: 100%;
+	}
+	.staffImg img {
+		margin: 0 auto;
+		width: 100%;
+	}
+	.staffInfoHolder {
+		width: 100%;
+	}
+	
+	.serviceHolder{
+		justify-content: center;
+	
+	}
+	
+	.services, .serviceImg{
+	 text-align: center;
+	}
+	
+	.serviceTxt{
+		margin: auto;
+		text-align: left;
+	}
+	
+	#footer{
+		flex-direction: column;
+	}
+	
+	.footerAdress, .footerRights {
+    width: 100%;
+}
+}
+
+@media (max-width: 321px)  {
+	.navLogo{display: none;}
+	
+		.nav ul li a, .font{
+			font-size: 14px;
+		}
+	
+	.navContact{
+		justify-content: flex-end;
+		width: 100%;
+	}
+	
+	.mainTitle {
+    font-size: 30px;
+	}
+		.mainBtn a{
+		font-size:20px;
+	}
+	
+	.title{
+		font-size: 35px;
+	}
+	
+}
+
+@media (min-width: 544px) and (max-width: 656px) {
+	header {
+		padding: 10px;
+		flex-flow: row-reverse wrap;
+		height: 100px;
+	}
+	.navContact {
+		-webkit-box-pack: start;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+		-ms-flex-line-pack: start;
+		align-content: flex-start;
+		margin-top: -110px;
+	}
+	.nav {
+		-webkit-box-pack: end;
+		-ms-flex-pack: end;
+		justify-content: flex-end;
+		width: 70%;
+		margin-top: 60px;
+	}
+	.navLogo {
+		-webkit-box-pack: start;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+		-ms-flex-line-pack: start;
+		align-content: flex-start;
+		width: 30%;
+	}
+	.navIcons {
+		display: none;
+	}
+	.nav li a {
+		font-size: 18px;
+	}
+	.navTel {
+		font-size: 20px;
+	}
+	.navAdress {
+		font-size: 14px;
+	}
+	.mainTitle {
+		font-size: 50px;
+	}
+	.mainSubTitle {
+		font-size: 30px;
+	}
+	.services {
+		width: 48%;
+	}
+	.serviceImg {
+		width: 48%;
+	}
+	.form {
+		width: 90%;
+		padding: 1rem;
+	}
+	.formCont {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+	}
+	.formCont div {
+		width: 100%;
+	}
+
+	.botMap {
+		display: none;
+	}
+	.salonPhotoHolder {
+		-ms-flex-pack: distribute;
+		justify-content: space-around;
+	}
+	.staffTitle {
+		font-size: 40px;
+	}
+	.botTel {
+		font-size: 50px;
+	}
+	.staffPhoto {
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: center;
+	
+	}
+	.staffImg {
+		width: 100%;
+	}
+	.staffImg img {
+		margin: 0 auto;
+		width: 100%;
+	}
+	.staffInfoHolder {
+		width: 100%;
+	}
+	
+	.photo, .photo-holder{
+		min-width: 178px; 
+	}
+}
+@media (min-width: 657px) and (max-width: 767px) {
+	header {
+		padding: 10px;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: reverse;
+		-ms-flex-flow: row-reverse wrap;
+		flex-flow: row-reverse wrap;
+		height: 110px;
+	}
+	.navContact {
+		-webkit-box-pack: start;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+		-ms-flex-line-pack: start;
+		align-content: flex-start;
+		margin-top: -60px;
+	}
+	.nav {
+		-webkit-box-pack: end;
+		-ms-flex-pack: end;
+		justify-content: flex-end;
+		width: 60%;
+	}
+	.navLogo {
+		-webkit-box-pack: start;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+		-ms-flex-line-pack: start;
+		align-content: flex-start;
+	}
+	.navIcons img {
+		margin: 0.5rem;
+	}
+	.nav li a {
+		font-size: 20px;
+	}
+	.mainTitle {
+		font-size: 50px;
+	}
+	.mainSubTitle {
+		font-size: 28px;
+	}
+	.services {
+		width: 48%;
+	}
+	.serviceImg {
+		width: 48%;
+	}
+	.form {
+		width: 80%;
+		padding: 1rem;
+	}
+	.formCont {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+	}
+	.formCont div {
+		width: 100%;
+	}
+
+	.botMap {
+		display: none;
+	}
+	.salonPhotoHolder {
+		justify-content: space-around;
+	}
+	.staffTitle {
+		font-size: 40px;
+	}
+	
+			.photo-holder{
+		width:176px;
+		padding:0 5px;
+	}
+	.botTel {
+		font-size: 55px;
+	}
+	.staffPhoto {
+		justify-content: space-around;
+	}
+	
+	.staffImg {
+		width: 100%;
+	}
+	.staffImg img {
+		margin: 0 auto;
+		width: 100%;
+	}
+	.staffInfoHolder {
+		width: 100%;
+	}
+}
+@media (min-width: 768px) and (max-width: 809px) {
+	header {
+		padding: 20px 30px 0px 30px;
+		flex-flow: row-reverse wrap;
+		height: 110px;
+	}
+	.navContact {
+		-webkit-box-pack: start;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+		-ms-flex-line-pack: start;
+		align-content: flex-start;
+		margin-top: -60px;
+	}
+	.nav {
+		-ms-flex-pack: distribute;
+		justify-content: space-around;
+	}
+	.navLogo {
+		-webkit-box-pack: start;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+		-ms-flex-line-pack: start;
+		align-content: flex-start;
+	}
+	.navIcons img {
+		margin: 0.5rem;
+	}
+
+	.mainTitle {
+		font-size: 50px;
+	}
+	.mainSubTitle {
+		font-size: 30px;
+	}
+	.services {
+		width: 48%;
+	}
+	.serviceImg {
+		width: 48%;
+	}
+	.form {
+		width: 70%;
+		padding: 1rem;
+	}
+	.formCont {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+	}
+	.formCont div {
+		width: 100%;
+	}
+	.botMap {
+		display: none;
+	}
+	.salonPhotoHolder {
+		justify-content: space-around;
+	}
+	.botTel {
+		font-size: 55px;
+	}
+	
+		.photo-holder{
+		width:176px;
+		padding:0 5px;
+	}
+	
+.staffImg {
+		width: 100%;
+	}
+	.staffImg img {
+		margin: 0 auto;
+		width: 100%;
+	}
+	.staffInfoHolder {
+		width: 100%;
+	}
+	.staffPhoto {
+		justify-content: space-around;
+		margin: 0 3px;
+	}
+}
+
+@media (min-width: 657px) and (max-width: 699px) {
+	.navLogo{
+		width:250px;
+		height: 91px;
+	}
+	
+	.navLogo img{
+		width:100%;
+		height: 100%;
+	}
+}
+@media (min-width: 809px) and (max-width: 991px) {
+	header {
+		-webkit-box-direction: reverse;
+		-ms-flex-flow: row-reverse wrap;
+		flex-flow: row-reverse wrap;
+		height: 110px;
+
+	}
+	.navContact {
+		-webkit-box-pack: start;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+		-ms-flex-line-pack: start;
+		align-content: flex-start;
+		margin-top: -60px;
+	}
+	.nav {
+		-ms-flex-pack: distribute;
+		justify-content: space-around;
+	}
+	.navLogo {
+		flex-direction: row;
+		-webkit-box-pack: start;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+		-ms-flex-line-pack: start;
+		align-content: flex-start;
+	}
+	.navIcons img {
+		margin: 0.5rem;
+	}
+
+	.services {
+		width: 48%;
+	}
+	.serviceImg {
+		width: 48%;
+	}
+	
+	.aboutStaffInfo {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+
+	.salonPhotoHolder{
+		justify-content: space-around;
+	}
+	.form {
+		padding: 1rem;
+	}
+	.formCont {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+	}
+	.formCont div {
+		width: 100%;
+	}
+	
+	.botTel {
+		font-size: 60px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	header {
+		height: 110px;
+
+	}
+	
+	.navContact {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-pack: start;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+	}
+	
+	.navIcons img {
+		margin: 0.5rem;
+	}
+	.navLogo {
+		-webkit-box-pack: start;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+			width:295px;
+	}
+
+	.aboutStaffInfo {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+	.staffImg {
+		width: 100%;
+	}
+	.staffImg img {
+		margin: 0 auto;
+		width: 100%;
+	}
+	.staffInfoHolder {
+		width: 100%;
+	}
+	.form {
+		padding: 1rem;
+	}
+	.formCont {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+	}
+	.formCont div {
+		width: 100%;
+	}
+
+	input {
+		width: 100%;
+	}
+
+	.staffPhoto {
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content:center;
+	}
+}
+@media (min-width: 1200px) and (max-width: 1299px) {
+
+	
+	.navLogo{
+		width:30%;
+	}
+}
